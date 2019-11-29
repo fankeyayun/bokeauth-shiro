@@ -9,10 +9,10 @@ import java.util.List;
 /**
  * @ClassName: UserUpdateReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 16:42
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 16:42
+ * @Author: as
+ * @CreateDate: 2019/10/20 16:42
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 16:42
  * @Version: 0.0.1
  */
 @Data

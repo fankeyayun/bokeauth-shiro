@@ -24,10 +24,10 @@ import javax.xml.crypto.Data;
 
 /**
  * @ClassName: UserController
- * TODO:类文件简单描述
- * @Author: 小霍
+ * TODO:登录控制器
+ * @Author: as
  * @CreateDate: 2019/9/3 18:16
- * @UpdateUser: 小霍
+ * @UpdateUser: as
  * @UpdateDate: 2019/9/3 18:16
  * @Version: 0.0.1
  */

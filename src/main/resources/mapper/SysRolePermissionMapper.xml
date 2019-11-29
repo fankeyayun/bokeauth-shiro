@@ -80,8 +80,8 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
 <!-- @Description:     根据角色id删除关联数据-->
-<!-- @Author:          小霍-->
-<!-- @CreateDate:      2019/9/20 10:39 -->
+<!-- @Author:          as-->
+<!-- @CreateDate:      2019/10/20 10:39 -->
   <delete id="removeByRoleId">
     DELETE
     FROM
@@ -90,8 +90,8 @@
     role_id = #{roleId}
   </delete>
   <!-- @Description:     根据角色查询权限-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 11:56 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 11:56 -->
   <select id="getPermissionIdsByRoles" resultType="java.lang.String">
     SELECT permission_id
     from sys_role_permission
@@ -101,8 +101,8 @@
     </foreach>
   </select>
   <!-- @Description:     新增角色的菜单权限-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 15:49 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 15:49 -->
   <insert id="batchRolePermission" parameterType="com.xh.lesson.entity.SysRolePermission">
     INSERT INTO sys_role_permission (
     id,
@@ -121,8 +121,8 @@
     </foreach>
   </insert>
   <!-- @Description:    根据菜单权限id 删除和角色关联 -->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 16:22 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 16:22 -->
   <delete id="removeByPermissionId">
      DELETE
     FROM
@@ -132,8 +132,8 @@
   </delete>
 
   <!-- @Description:     根据菜单权限id查找管理的角色id-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/25 13:37 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/25 13:37 -->
   <select id="getRoleIds" resultType="java.lang.String">
     select role_id
     from sys_role_permisson

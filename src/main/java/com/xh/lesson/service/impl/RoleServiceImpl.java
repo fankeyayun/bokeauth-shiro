@@ -33,10 +33,10 @@ import java.util.concurrent.TimeUnit;
 /**
  * @ClassName: RoleServiceImpl
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/19 11:40
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 11:40
+ * @Author: as
+ * @CreateDate: 2019/10/19 11:40
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 11:40
  * @Version: 0.0.1
  */
 @Service
@@ -56,10 +56,10 @@ public class RoleServiceImpl implements RoleService {
     private SysUserRoleMapper sysUserRoleMapper;
     /**
      * 新增角色
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 0:28
+     * @Author:      as
+     * @CreateDate:  2019/10/20 0:28
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 0:28
+     * @UpdateDate:  2019/10/20 0:28
      * @Version:     0.0.1
      * @param vo
      * @return       com.xh.lesson.entity.SysRole
@@ -88,10 +88,10 @@ public class RoleServiceImpl implements RoleService {
     }
     /**
      * 更新角色信息
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 0:37
+     * @Author:      as
+     * @CreateDate:  2019/10/20 0:37
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 0:37
+     * @UpdateDate:  2019/10/20 0:37
      * @Version:     0.0.1
      * @param vo
      * @return       void
@@ -137,10 +137,10 @@ public class RoleServiceImpl implements RoleService {
     }
     /**
      * 获取角色详情
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 0:37
+     * @Author:      as
+     * @CreateDate:  2019/10/20 0:37
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 0:37
+     * @UpdateDate:  2019/10/20 0:37
      * @Version:     0.0.1
      * @param id
      * @return       com.xh.lesson.entity.SysRole
@@ -155,10 +155,10 @@ public class RoleServiceImpl implements RoleService {
      * 主要逻辑：
      * 删除 用户和角色关联数据
      * 删除 角色和权限关联数据
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 10:34
+     * @Author:      as
+     * @CreateDate:  2019/10/20 10:34
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 10:34
+     * @UpdateDate:  2019/10/20 10:34
      * @Version:     0.0.1
      * @param id
      * @return       void
@@ -191,10 +191,10 @@ public class RoleServiceImpl implements RoleService {
     }
     /**
      * 分页获取角色信息列表
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 0:40
+     * @Author:      as
+     * @CreateDate:  2019/10/20 0:40
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 0:40
+     * @UpdateDate:  2019/10/20 0:40
      * @Version:     0.0.1
      * @param vo
      * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysRole>
@@ -208,10 +208,10 @@ public class RoleServiceImpl implements RoleService {
     }
     /**
      * 获取用户的所有角色
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 16:38
+     * @Author:      as
+     * @CreateDate:  2019/10/20 16:38
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 16:38
+     * @UpdateDate:  2019/10/20 16:38
      * @Version:     0.0.1
      * @param userId
      * @return       java.util.List<com.xh.lesson.entity.SysRole>
@@ -228,10 +228,10 @@ public class RoleServiceImpl implements RoleService {
     }
     /**
      * 获取所有角色名称
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 23:13
+     * @Author:      as
+     * @CreateDate:  2019/10/20 23:13
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 23:13
+     * @UpdateDate:  2019/10/20 23:13
      * @Version:     0.0.1
      * @param userId
      * @return       java.util.List<java.lang.String>

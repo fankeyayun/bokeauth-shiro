@@ -16,10 +16,10 @@ import java.util.concurrent.TimeUnit;
 /**
  * @ClassName: RedisCache
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/6 13:53
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/6 13:53
+ * @Author: as
+ * @CreateDate: 2019/10/6 13:53
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/6 13:53
  * @Version: 0.0.1
  */
 @Slf4j

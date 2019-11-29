@@ -7,10 +7,10 @@ import java.util.List;
 /**
 * @ClassName:       PageVO
 *                   分页VO
-* @Author:          小霍
-* @CreateDate:      2019/9/19 13:25
-* @UpdateUser:      小霍
-* @UpdateDate:      2019/9/19 13:25
+* @Author:          as
+* @CreateDate:      2019/10/19 13:25
+* @UpdateUser:      as
+* @UpdateDate:      2019/10/19 13:25
 * @Version:         0.0.1
 */
 @Data

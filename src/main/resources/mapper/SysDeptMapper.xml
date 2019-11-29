@@ -175,24 +175,24 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
   <!-- @Description:     维护Relation_code 的层级关系-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/19 14:57 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/19 14:57 -->
   <update id="updateRelationCode">
     UPDATE sys_dept
     set relation_code=replace(relation_code,#{oldStr},#{newStr})
     where relation_code LIKE CONCAT(#{relationCode},'%')
   </update>
   <!-- @Description:     查询所有没有删除的组织-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/19 15:37 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/19 15:37 -->
   <select id="selectAll" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_dept
     where deleted=1
   </select>
   <!-- @Description:     获取该组织下所有子集包括自己-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 17:12 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 17:12 -->
   <select id="selectChildIds" resultType="java.lang.String">
     select id
     from sys_dept

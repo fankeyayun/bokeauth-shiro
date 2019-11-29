@@ -17,12 +17,13 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 /**
+ * 权限控制层
  * @ClassName: PermissionController
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 14:05
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 14:05
+ * @Author: as
+ * @CreateDate: 2019/10/20 14:05
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 14:05
  * @Version: 0.0.1
  */
 @RequestMapping("/sys")

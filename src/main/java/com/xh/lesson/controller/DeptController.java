@@ -22,12 +22,13 @@ import java.util.List;
 
 
 /**
+ * 机构控制层
  * @ClassName: DeptController
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/19 11:37
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 11:37
+ * @Author: as
+ * @CreateDate: 2019/10/19 11:37
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 11:37
  * @Version: 0.0.1
  */
 @RequestMapping("/sys")

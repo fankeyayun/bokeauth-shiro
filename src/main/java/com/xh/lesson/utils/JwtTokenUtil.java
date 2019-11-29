@@ -23,10 +23,10 @@ import java.util.Map;
 /**
  * @ClassName: JwtTokenUtil
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/6 23:49
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/6 23:49
+ * @Author: as
+ * @CreateDate: 2019/10/6 23:49
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/6 23:49
  * @Version: 0.0.1
  */
 @Slf4j
@@ -45,10 +45,10 @@ public class JwtTokenUtil {
     }
     /**
      * 生成 access_token
-     * @Author:      小霍
-     * @CreateDate:  2019/9/26 10:22
+     * @Author:      as
+     * @CreateDate:  2019/10/26 10:22
      * @UpdateUser:
-     * @UpdateDate:  2019/9/26 10:22
+     * @UpdateDate:  2019/10/26 10:22
      * @Version:     0.0.1
      * @param subject
      * @param claims
@@ -61,10 +61,10 @@ public class JwtTokenUtil {
     }
     /**
      * 生产 refresh_token
-     * @Author:      小霍
-     * @CreateDate:  2019/9/26 10:24
+     * @Author:      as
+     * @CreateDate:  2019/10/26 10:24
      * @UpdateUser:
-     * @UpdateDate:  2019/9/26 10:24
+     * @UpdateDate:  2019/10/26 10:24
      * @Version:     0.0.1
      * @param subject
      * @param claims
@@ -76,10 +76,10 @@ public class JwtTokenUtil {
     }
     /**
      * 签发token
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 20:42
+     * @Author:      as
+     * @CreateDate:  2019/10/7 20:42
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 20:42
+     * @UpdateDate:  2019/10/7 20:42
      * @Version:     0.0.1
      * @param issuer 签发人
      * @param subject 代表这个JWT的主体，即它的所有人 一般是用户id
@@ -118,10 +118,10 @@ public class JwtTokenUtil {
     }
     /**
      * 获取用户id
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 17:29
+     * @Author:      as
+     * @CreateDate:  2019/10/7 17:29
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 17:29
+     * @UpdateDate:  2019/10/7 17:29
      * @Version:     0.0.1
      * @param token
      * @return       java.lang.String
@@ -139,10 +139,10 @@ public class JwtTokenUtil {
     }
     /**
      * 获取用户名
-     * @Author:      小霍
-     * @CreateDate:  2019/9/23 15:39
+     * @Author:      as
+     * @CreateDate:  2019/10/23 15:39
      * @UpdateUser:
-     * @UpdateDate:  2019/9/23 15:39
+     * @UpdateDate:  2019/10/23 15:39
      * @Version:     0.0.1
      * @param token
      * @return       java.lang.String
@@ -161,10 +161,10 @@ public class JwtTokenUtil {
     }
     /**
      * 从令牌中获取数据声明
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 21:21
+     * @Author:      as
+     * @CreateDate:  2019/10/7 21:21
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 21:21
+     * @UpdateDate:  2019/10/7 21:21
      * @Version:     0.0.1
      * @param token
      * @return       io.jsonwebtoken.Claims
@@ -181,10 +181,10 @@ public class JwtTokenUtil {
     }
     /**
      * 校验令牌
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 22:15
+     * @Author:      as
+     * @CreateDate:  2019/10/7 22:15
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 22:15
+     * @UpdateDate:  2019/10/7 22:15
      * @Version:     0.0.1
      * @param token
      * @return       java.lang.Boolean
@@ -196,10 +196,10 @@ public class JwtTokenUtil {
     }
     /**
      * 验证token 是否过期
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 21:27
+     * @Author:      as
+     * @CreateDate:  2019/10/7 21:27
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 21:27
+     * @UpdateDate:  2019/10/7 21:27
      * @Version:     0.0.1
      * @param token
      * @param secretKey
@@ -219,10 +219,10 @@ public class JwtTokenUtil {
     }
     /**
      * 刷新token
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 22:14
+     * @Author:      as
+     * @CreateDate:  2019/10/7 22:14
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 22:14
+     * @UpdateDate:  2019/10/7 22:14
      * @Version:     0.0.1
      * @param refreshToken
      * @param claims 主动去刷新的时候 改变JWT payload 内的信息
@@ -248,10 +248,10 @@ public class JwtTokenUtil {
     }
     /**
      * 获取token的剩余过期时间
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 22:19
+     * @Author:      as
+     * @CreateDate:  2019/10/7 22:19
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 22:19
+     * @UpdateDate:  2019/10/7 22:19
      * @Version:     0.0.1
      * @param token
      * @param secretKey

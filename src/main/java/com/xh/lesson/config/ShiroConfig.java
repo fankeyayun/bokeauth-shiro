@@ -22,11 +22,12 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
+ * 权限配置
  * @ClassName: ShiroConfig
  * TODO:类文件简单描述
- * @Author: 小霍
+ * @Author: as
  * @CreateDate: 2019/9/7 13:31
- * @UpdateUser: 小霍
+ * @UpdateUser: as
  * @UpdateDate: 2019/9/7 13:31
  * @Version: 0.0.1
  */
@@ -34,7 +35,7 @@ import java.util.Map;
 public class ShiroConfig {
     /**
      * 自定义密码 校验
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/19 10:46
      * @UpdateUser:
      * @UpdateDate:  2019/9/19 10:46
@@ -49,7 +50,7 @@ public class ShiroConfig {
     }
     /**
      * 自定义域
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/19 10:46
      * @UpdateUser:
      * @UpdateDate:  2019/9/19 10:46
@@ -67,7 +68,7 @@ public class ShiroConfig {
     }
     /**
      * 缓存管理器
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/19 10:40
      * @UpdateUser:
      * @UpdateDate:  2019/9/19 10:40
@@ -83,7 +84,7 @@ public class ShiroConfig {
 
     /**
      * 安全管理
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/19 10:47
      * @UpdateUser:
      * @UpdateDate:  2019/9/19 10:47
@@ -107,7 +108,7 @@ public class ShiroConfig {
 
     /**
      * shiro过滤器，配置拦截哪些请求
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/19 10:47
      * @UpdateUser:
      * @UpdateDate:  2019/9/19 10:47
@@ -150,7 +151,7 @@ public class ShiroConfig {
     /**
      * 开启shiro aop注解支持.
      * 使用代理方式;所以需要开启代码支持;
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/19 10:50
      * @UpdateUser:
      * @UpdateDate:  2019/9/19 10:50

@@ -186,8 +186,8 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
   <!-- @Description:     获取菜单权限集合-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 14:01 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 14:01 -->
   <select id="selectInfoByIds" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from  sys_permission
@@ -197,8 +197,8 @@
     </foreach>
   </select>
   <!-- @Description:     获取所有权限-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 14:02 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 14:02 -->
   <select id="selectAll" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_permission

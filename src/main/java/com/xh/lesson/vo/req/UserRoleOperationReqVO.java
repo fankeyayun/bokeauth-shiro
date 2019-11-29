@@ -10,10 +10,10 @@ package com.xh.lesson.vo.req;
 /**
  * @ClassName: UserRoleOperationReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 14:40
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 14:40
+ * @Author: as
+ * @CreateDate: 2019/10/20 14:40
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 14:40
  * @Version: 0.0.1
  */
 @Data

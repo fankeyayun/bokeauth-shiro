@@ -139,8 +139,8 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
   <!-- @Description:     获取所有的操作日志-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/23 16:19 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/23 16:19 -->
   <select id="selectAll" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_log

@@ -6,10 +6,10 @@ import lombok.Data;
 /**
  * @ClassName: RolePageReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 0:34
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 0:34
+ * @Author: as
+ * @CreateDate: 2019/10/20 0:34
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 0:34
  * @Version: 0.0.1
  */
 @Data

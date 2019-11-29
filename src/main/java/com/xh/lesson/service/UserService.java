@@ -10,19 +10,19 @@ import java.util.List;
 /**
  * @ClassName: UserService
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/7 22:55
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/7 22:55
+ * @Author: as
+ * @CreateDate: 2019/10/7 22:55
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/7 22:55
  * @Version: 0.0.1
  */
 public interface UserService {
     /**
      * 用户注册
-     * @Author:      小霍
-     * @CreateDate:  2019/9/7 23:02
+     * @Author:      as
+     * @CreateDate:  2019/10/7 23:02
      * @UpdateUser:
-     * @UpdateDate:  2019/9/7 23:02
+     * @UpdateDate:  2019/10/7 23:02
      * @Version:     0.0.1
      * @param vo
      * @return       java.lang.String
@@ -31,10 +31,10 @@ public interface UserService {
     String register(RegisterReqVO vo);
     /**
      * 用户登录接口
-     * @Author:      小霍
-     * @CreateDate:  2019/9/8 10:05
+     * @Author:      as
+     * @CreateDate:  2019/10/8 10:05
      * @UpdateUser:
-     * @UpdateDate:  2019/9/8 10:05
+     * @UpdateDate:  2019/10/8 10:05
      * @Version:     0.0.1
      * @param vo
      * @return       com.xh.lesson.vo.resp.LoginRespVO
@@ -44,10 +44,10 @@ public interface UserService {
 
     /**
      * 刷新token
-     * @Author:      小霍
-     * @CreateDate:  2019/9/8 10:15
+     * @Author:      as
+     * @CreateDate:  2019/10/8 10:15
      * @UpdateUser:
-     * @UpdateDate:  2019/9/8 10:15
+     * @UpdateDate:  2019/10/8 10:15
      * @Version:     0.0.1
      * @param refreshToken
      * @return       java.lang.String
@@ -56,10 +56,10 @@ public interface UserService {
     String refreshToken(String refreshToken,String accessToken);
     /**
      * 更新用户
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 16:57
+     * @Author:      as
+     * @CreateDate:  2019/10/20 16:57
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 16:57
+     * @UpdateDate:  2019/10/20 16:57
      * @Version:     0.0.1
      * @param vo
      * @param operationId
@@ -69,10 +69,10 @@ public interface UserService {
     void updateUserInfo(UserUpdateReqVO vo,String operationId,String accessToken);
     /**
      * 删除用户
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 16:57
+     * @Author:      as
+     * @CreateDate:  2019/10/20 16:57
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 16:57
+     * @UpdateDate:  2019/10/20 16:57
      * @Version:     0.0.1
      * @param userId
      * @param operationId
@@ -82,10 +82,10 @@ public interface UserService {
     void deleted(String userId,String operationId);
     /**
      * 分页查询用户信息
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 16:56
+     * @Author:      as
+     * @CreateDate:  2019/10/20 16:56
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 16:56
+     * @UpdateDate:  2019/10/20 16:56
      * @Version:     0.0.1
      * @param vo
      * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysUser>
@@ -94,10 +94,10 @@ public interface UserService {
     PageVO<SysUser> pageInfo(UserPageReqVO vo);
     /**
      * 查询用户详情
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 16:56
+     * @Author:      as
+     * @CreateDate:  2019/10/20 16:56
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 16:56
+     * @UpdateDate:  2019/10/20 16:56
      * @Version:     0.0.1
      * @param userId
      * @return       com.xh.lesson.entity.SysUser
@@ -106,10 +106,10 @@ public interface UserService {
     SysUser detailInfo(String userId);
     /**
      * 分页查询组织下的用户
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 17:22
+     * @Author:      as
+     * @CreateDate:  2019/10/20 17:22
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 17:22
+     * @UpdateDate:  2019/10/20 17:22
      * @Version:     0.0.1
      * @param pageNum
      * @param pageSize
@@ -120,10 +120,10 @@ public interface UserService {
     PageVO<SysUser> selectUserInfoByDeptIds(int pageNum, int pageSize,List<String> deptIds);
     /**
      * 新增用户
-     * @Author:      小霍
-     * @CreateDate:  2019/9/22 16:51
+     * @Author:      as
+     * @CreateDate:  2019/10/22 16:51
      * @UpdateUser:
-     * @UpdateDate:  2019/9/22 16:51
+     * @UpdateDate:  2019/10/22 16:51
      * @Version:     0.0.1
      * @param vo
      * @return       void
@@ -132,8 +132,8 @@ public interface UserService {
     void addUser(UserAddReqVO vo);
     /**
      * 退出登录
-     * @Author:      小霍
-     * @CreateDate:  2019/9/22 19:58
+     * @Author:      as
+     * @CreateDate:  2019/10/22 19:58
      * @UpdateUser:
      * @UpdateDate:  2019/9/22 19:58
      * @Version:     0.0.1

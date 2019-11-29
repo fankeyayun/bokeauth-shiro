@@ -5,10 +5,10 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 /**
  * @ClassName: CustomPasswordToken
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/6 17:58
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/6 17:58
+ * @Author: as
+ * @CreateDate: 2019/10/6 17:58
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/6 17:58
  * @Version: 0.0.1
  */
 public class CustomPasswordToken  extends UsernamePasswordToken {

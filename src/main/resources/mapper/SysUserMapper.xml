@@ -232,8 +232,8 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
   <!-- @Description:     根据用户名获取用户信息-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/7 23:13 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/7 23:13 -->
   <select id="getUserInfoByName" resultMap="BaseResultMap">
     SELECT <include refid="Base_Column_List"></include>
     FROM sys_user
@@ -241,16 +241,16 @@
     AND deleted=1
   </select>
   <!-- @Description:     查询所有用户-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 16:51 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 16:51 -->
   <select id="selectAll" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_user
     where deleted=1
   </select>
   <!-- @Description:     查询组织下所有用户-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 16:52 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 16:52 -->
   <select id="selectUserInfoByDeptIds" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_user

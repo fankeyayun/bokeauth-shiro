@@ -2,11 +2,11 @@ package com.xh.lesson.exception.code;
 
 /**
  * @ClassName: BaseResponseCode
- * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/4 22:57
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/4 22:57
+ * TODO:异常信息枚举类
+ * @Author: as
+ * @CreateDate: 2019/10/4 22:57
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/4 22:57
  * @Version: 0.0.1
  */
 public enum BaseResponseCode implements ResponseCodeInterface {

@@ -18,10 +18,10 @@ import java.util.UUID;
 /**
  * @ClassName: UserRoleServiceImpl
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/19 11:42
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 11:42
+ * @Author: as
+ * @CreateDate: 2019/10/19 11:42
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 11:42
  * @Version: 0.0.1
  */
 @Service
@@ -30,10 +30,10 @@ public class UserRoleServiceImpl implements UserRoleService {
     private SysUserRoleMapper sysUserRoleMapper;
     /**
      * 删除用户和角色关联数据
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 10:42
+     * @Author:      as
+     * @CreateDate:  2019/10/20 10:42
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 10:42
+     * @UpdateDate:  2019/10/20 10:42
      * @Version:     0.0.1
      * @param roleId
      * @return       int
@@ -45,10 +45,10 @@ public class UserRoleServiceImpl implements UserRoleService {
     }
     /**
      * 查询用户所拥有的角色id集合
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 14:43
+     * @Author:      as
+     * @CreateDate:  2019/10/20 14:43
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 14:43
+     * @UpdateDate:  2019/10/20 14:43
      * @Version:     0.0.1
      * @param userId
      * @return       java.util.List<java.lang.String>
@@ -65,10 +65,10 @@ public class UserRoleServiceImpl implements UserRoleService {
      * 主要逻辑
      * 先删除原先用户和角色的关联
      * 再添加新的用户和角色关联
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 15:44
+     * @Author:      as
+     * @CreateDate:  2019/10/20 15:44
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 15:44
+     * @UpdateDate:  2019/10/20 15:44
      * @Version:     0.0.1
      * @param vo
      * @return       void
@@ -95,10 +95,10 @@ public class UserRoleServiceImpl implements UserRoleService {
     }
     /**
      * 删除用户所有角色
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 16:02
+     * @Author:      as
+     * @CreateDate:  2019/10/20 16:02
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 16:02
+     * @UpdateDate:  2019/10/20 16:02
      * @Version:     0.0.1
      * @param userId
      * @return       int

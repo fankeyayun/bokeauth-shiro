@@ -9,10 +9,10 @@ import java.time.Duration;
 /**
  * @ClassName: TokenSettings
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/7 20:46
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/7 20:46
+ * @Author: as
+ * @CreateDate: 2019/10/7 20:46
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/7 20:46
  * @Version: 0.0.1
  */
 @Configuration

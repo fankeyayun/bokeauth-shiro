@@ -9,11 +9,11 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * @ClassName: MyStringRedisSerializer
- * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/6 13:43
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/6 13:43
+ * TODO:
+ * @Author: as
+ * @CreateDate: 2019/10/6 13:43
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/6 13:43
  * @Version: 0.0.1
  */
 public class MyStringRedisSerializer implements RedisSerializer<Object> {

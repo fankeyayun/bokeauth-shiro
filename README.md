@@ -1,14 +1,14 @@
-Spring Boot2x +redis+JWT+Swagger2+Mybatis 实战脚手架
+Spring Boot2x +redis+JWT+Swagger2+Mybatis 
 
-- 快速上手搭建企业实战框架(全程注释)
-- 快速熟悉Spring boot
+- 全程注释
+- 熟悉Spring boot
 - 前后端分离 分布式sessionId 管理
-- 掌握redisTemplate 的使用姿势
-- 掌握 shiro
-- 掌握 JWT的使用姿势(token refreshToken 使用姿势)
-- 掌握Swagger2x
-- 掌握generatorConfiguration 逆向生成代码
-- 掌握权限管理系统的业务
+- redisTemplate 的使用姿势
+- shiro
+- JWT的使用姿势(token refreshToken 使用姿势)
+- Swagger2x
+- generatorConfiguration 逆向生成代码
+- 权限管理系统的业务
 
 关键点
 

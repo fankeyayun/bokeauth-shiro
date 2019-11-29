@@ -16,10 +16,10 @@ import java.util.List;
 /**
  * @ClassName: RestExceptionHandler
  * controller 层全局异常统一处理类
- * @Author: 小霍
- * @CreateDate: 2019/9/4 15:55
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/4 15:55
+ * @Author: as
+ * @CreateDate: 2019/10/4 15:55
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/4 15:55
  * @Version: 0.0.1
  */
 @RestControllerAdvice
@@ -28,10 +28,10 @@ public class RestExceptionHandler {
 
     /**
      * 系统繁忙，请稍候再试"
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 23:25
+     * @Author:      as
+     * @CreateDate:  2019/10/4 23:25
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 23:25
+     * @UpdateDate:  2019/10/4 23:25
      * @Version:     0.0.1
      * @param e
      * @return       com.xh.lesson.utils.DataResult<T>
@@ -45,10 +45,10 @@ public class RestExceptionHandler {
 
     /**
      * 自定义全局异常处理
-     * @Author:      小霍
-     * @CreateDate:  2019/9/4 16:39
+     * @Author:      as
+     * @CreateDate:  2019/10/4 16:39
      * @UpdateUser:
-     * @UpdateDate:  2019/9/4 16:39
+     * @UpdateDate:  2019/10/4 16:39
      * @Version:     0.0.1
      * @param e
      * @return       com.xh.lesson.utils.DataResult<T>
@@ -61,10 +61,10 @@ public class RestExceptionHandler {
     }
     /**
      * 没有权限 抛出异常
-     * @Author:      小霍
-     * @CreateDate:  2019/9/23 15:19
+     * @Author:      as
+     * @CreateDate:  2019/10/23 15:19
      * @UpdateUser:
-     * @UpdateDate:  2019/9/23 15:19
+     * @UpdateDate:  2019/10/23 15:19
      * @Version:     0.0.1
      * @param e
      * @return       com.xh.lesson.utils.DataResult<T>
@@ -78,10 +78,10 @@ public class RestExceptionHandler {
     }
     /**
      * 处理validation 框架异常
-     * @Author:      huoth
-     * @CreateDate:  2019/1/5 16:01
+     * @Author:      as
+     * @CreateDate:  2019/10/5 16:01
      * @UpdateUser:
-     * @UpdateDate:  2019/1/5 16:01
+     * @UpdateDate:  2019/10/5 16:01
      * @Version:     0.0.1
      * @param e
      * @return       com.hth.cloud.common.base.HgResult<T>

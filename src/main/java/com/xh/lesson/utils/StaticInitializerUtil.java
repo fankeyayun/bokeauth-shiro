@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 /**
  * @ClassName: StaticContextInitializer
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/26 10:07
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/26 10:07
+ * @Author: as
+ * @CreateDate: 2019/10/26 10:07
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/26 10:07
  * @Version: 0.0.1
  */
 @Component

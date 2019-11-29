@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @ClassName: TestController
  * TODO:类文件简单描述
- * @Author: 小霍
+ * @Author: as
  * @CreateDate: 2019/9/7 22:22
- * @UpdateUser: 小霍
+ * @UpdateUser: as
  * @UpdateDate: 2019/9/7 22:22
  * @Version: 0.0.1
  */
@@ -31,7 +31,7 @@ public class TestController {
     @ApiOperation(value = "测试DataResult接口")
     public DataResult<String> getHome(){
         int i=1/0;
-        DataResult<String> result=DataResult.success("哈哈哈哈测试成功 欢迎来到迎学教育");
+        DataResult<String> result=DataResult.success("哈哈哈哈测试成功 欢迎来test接口");
         return result;
     }
     @GetMapping("/test/business/error")

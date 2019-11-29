@@ -8,10 +8,10 @@ import java.util.List;
 /**
  * @ClassName: DeptRespNodeVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/19 22:01
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 22:01
+ * @Author: as
+ * @CreateDate: 2019/10/19 22:01
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 22:01
  * @Version: 0.0.1
  */
 @Data

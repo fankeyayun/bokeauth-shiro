@@ -8,10 +8,10 @@ import javax.validation.constraints.NotBlank;
 /**
  * @ClassName: DeptUpdateReqVO
  * 更新 组织
- * @Author: 小霍
- * @CreateDate: 2019/9/19 14:04
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 14:04
+ * @Author: as
+ * @CreateDate: 2019/10/19 14:04
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 14:04
  * @Version: 0.0.1
  */
 @Data

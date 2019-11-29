@@ -19,10 +19,10 @@ import java.io.OutputStream;
 /**
  * @ClassName: CustomAccessControlFilter
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/6 23:22
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/6 23:22
+ * @Author: as
+ * @CreateDate: 2019/10/6 23:22
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/6 23:22
  * @Version: 0.0.1
  */
 @Slf4j
@@ -31,10 +31,10 @@ public class CustomAccessControlFilter extends AccessControlFilter {
      * 是否允许访问
      * true：允许，交下一个Filter处理
      * false：回往下执行onAccessDenied
-     * @Author:      小霍
-     * @CreateDate:  2019/9/6 23:24
+     * @Author:      as
+     * @CreateDate:  2019/10/6 23:24
      * @UpdateUser:
-     * @UpdateDate:  2019/9/6 23:24
+     * @UpdateDate:  2019/10/6 23:24
      * @Version:     0.0.1
      * @param servletRequest
      * @param servletResponse
@@ -50,10 +50,10 @@ public class CustomAccessControlFilter extends AccessControlFilter {
      * 表示访问拒绝时是否自己处理，
      * 如果返回true表示自己不处理且继续拦截器链执行，
      * 返回false表示自己已经处理了（比如重定向到另一个页面）。
-     * @Author:      小霍
-     * @CreateDate:  2019/9/6 23:25
+     * @Author:      as
+     * @CreateDate:  2019/10/6 23:25
      * @UpdateUser:
-     * @UpdateDate:  2019/9/6 23:25
+     * @UpdateDate:  2019/10/6 23:25
      * @Version:     0.0.1
      * @param servletRequest
      * @param servletResponse
@@ -87,10 +87,10 @@ public class CustomAccessControlFilter extends AccessControlFilter {
     }
     /**
      * 自定义错误响应
-     * @Author:      小霍
-     * @CreateDate:  2019/9/8 19:14
+     * @Author:      as
+     * @CreateDate:  2019/10/8 19:14
      * @UpdateUser:
-     * @UpdateDate:  2019/9/8 19:14
+     * @UpdateDate:  2019/10/8 19:14
      * @Version:     0.0.1
      * @param code
      * @param msg

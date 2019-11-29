@@ -10,10 +10,10 @@ import java.util.Date;
 /**
  * @ClassName: DeptAddReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/19 13:30
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 13:30
+ * @Author: as
+ * @CreateDate: 2019/10/19 13:30
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 13:30
  * @Version: 0.0.1
  */
 @Data

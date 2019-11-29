@@ -8,10 +8,10 @@ import java.util.List;
 /**
  * @ClassName: PermissionRespNode
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/23 10:36
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/23 10:36
+ * @Author: as
+ * @CreateDate: 2019/10/23 10:36
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/23 10:36
  * @Version: 0.0.1
  */
 @Data

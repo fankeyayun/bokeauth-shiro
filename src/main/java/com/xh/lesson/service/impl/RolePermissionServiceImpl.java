@@ -17,10 +17,10 @@ import java.util.UUID;
 /**
  * @ClassName: RolePermissionServiceImpl
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/19 11:41
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/19 11:41
+ * @Author: as
+ * @CreateDate: 2019/10/19 11:41
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/19 11:41
  * @Version: 0.0.1
  */
 @Service
@@ -29,10 +29,10 @@ public class RolePermissionServiceImpl implements RolePermissionService {
     private SysRolePermissionMapper sysRolePermissionMapper;
     /**
      * 删除角色和权限关联数据
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 10:41
+     * @Author:      as
+     * @CreateDate:  2019/10/20 10:41
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 10:41
+     * @UpdateDate:  2019/10/20 10:41
      * @Version:     0.0.1
      * @param roleId
      * @return       int
@@ -44,10 +44,10 @@ public class RolePermissionServiceImpl implements RolePermissionService {
     }
     /**
      * 根据角色id集合获取所有的菜单权限id
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 15:57
+     * @Author:      as
+     * @CreateDate:  2019/10/20 15:57
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 15:57
+     * @UpdateDate:  2019/10/20 15:57
      * @Version:     0.0.1
      * @param roleIds
      * @return       java.util.List<java.lang.String>
@@ -63,10 +63,10 @@ public class RolePermissionServiceImpl implements RolePermissionService {
      * 主要逻辑：
      * 先删除角色和菜单权限关联
      * 再新增角色和菜单权限关联
-     * @Author:      小霍
-     * @CreateDate:  2019/9/20 15:56
+     * @Author:      as
+     * @CreateDate:  2019/10/20 15:56
      * @UpdateUser:
-     * @UpdateDate:  2019/9/20 15:56
+     * @UpdateDate:  2019/10/20 15:56
      * @Version:     0.0.1
      * @param vo
      * @return       void
@@ -93,10 +93,10 @@ public class RolePermissionServiceImpl implements RolePermissionService {
     }
     /**
      * 根据菜单权限id删除跟角色关联
-     * @Author:      小霍
-     * @CreateDate:  2019/9/22 16:43
+     * @Author:      as
+     * @CreateDate:  2019/10/22 16:43
      * @UpdateUser:
-     * @UpdateDate:  2019/9/22 16:43
+     * @UpdateDate:  2019/10/22 16:43
      * @Version:     0.0.1
      * @param permissionId
      * @return       int
@@ -109,10 +109,10 @@ public class RolePermissionServiceImpl implements RolePermissionService {
     }
     /**
      * 根据菜单权限id 判读是否有角色跟它关联
-     * @Author:      小霍
-     * @CreateDate:  2019/9/25 13:39
+     * @Author:      as
+     * @CreateDate:  2019/10/25 13:39
      * @UpdateUser:
-     * @UpdateDate:  2019/9/25 13:39
+     * @UpdateDate:  2019/10/25 13:39
      * @Version:     0.0.1
      * @param permissionId
      * @return       java.util.List<java.lang.String>

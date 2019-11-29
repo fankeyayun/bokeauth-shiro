@@ -12,9 +12,9 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 /**
  * @ClassName: RedisConfig
  * TODO:类文件简单描述
- * @Author: 小霍
+ * @Author: as
  * @CreateDate: 2019/9/6 13:42
- * @UpdateUser: 小霍
+ * @UpdateUser: as
  * @UpdateDate: 2019/9/6 13:42
  * @Version: 0.0.1
  */

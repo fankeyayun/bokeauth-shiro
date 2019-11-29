@@ -18,12 +18,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * swaager2 配置文件
  * @ClassName: SwaggerConfig
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/4 11:03
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/4 11:03
+ * @Author: as
+ * @CreateDate: 2019/10/4 11:03
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/4 11:03
  * @Version: 0.0.1
  */
 @EnableSwagger2
@@ -61,8 +62,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("迎学教育")
-                .description("迎学教育-spring boot 实战系列")
+                .title("测试")
+                .description("测试-spring boot")
                 .termsOfServiceUrl("")
                 .version("1.0")
                 .build();

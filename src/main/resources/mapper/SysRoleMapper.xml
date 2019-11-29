@@ -116,15 +116,15 @@
   </update>
   <!-- @Description:     获取所有的角色-->
   <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 16:32 -->
+  <!-- @CreateDate:      2019/as/20 16:32 -->
   <select id="selectAll" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_role
     where deleted=1
   </select>
   <!-- @Description:     根绝角色id查询信息集合-->
-  <!-- @Author:          小霍-->
-  <!-- @CreateDate:      2019/9/20 16:32 -->
+  <!-- @Author:          as-->
+  <!-- @CreateDate:      2019/10/20 16:32 -->
   <select id="getRoleInfoByIds" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
     from sys_role

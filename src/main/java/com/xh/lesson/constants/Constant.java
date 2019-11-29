@@ -1,12 +1,13 @@
 package com.xh.lesson.constants;
 
 /**
+ *
  * @ClassName: Constant
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/6 23:30
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/6 23:30
+ * @Author: as
+ * @CreateDate: 2019/10/6 23:30
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/6 23:30
  * @Version: 0.0.1
  */
 public class Constant {

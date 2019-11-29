@@ -10,10 +10,10 @@ import java.util.List;
 /**
  * @ClassName: RolePermissionOperationReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 15:47
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 15:47
+ * @Author: as
+ * @CreateDate: 2019/10/20 15:47
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 15:47
  * @Version: 0.0.1
  */
 @Data

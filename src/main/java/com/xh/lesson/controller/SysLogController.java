@@ -19,11 +19,10 @@ import javax.xml.crypto.Data;
 
 /**
  * @ClassName: SysLogController
- * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/23 16:15
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/23 16:15
+ * @Author: as
+ * @CreateDate: 2019/10/23 16:15
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/23 16:15
  * @Version: 0.0.1
  */
 @RequestMapping("/sys")

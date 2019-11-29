@@ -6,10 +6,10 @@ import lombok.Data;
 /**
  * @ClassName: UserPageReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 16:45
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 16:45
+ * @Author: sa
+ * @CreateDate: 2019/10/20 16:45
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 16:45
  * @Version: 0.0.1
  */
 @Data

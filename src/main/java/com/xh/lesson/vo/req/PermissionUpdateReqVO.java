@@ -8,10 +8,10 @@ import javax.validation.constraints.NotBlank;
 /**
  * @ClassName: PermissionUpdateReqVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/20 12:33
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/20 12:33
+ * @Author: as
+ * @CreateDate: 2019/10/20 12:33
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/20 12:33
  * @Version: 0.0.1
  */
 @Data

@@ -4,11 +4,11 @@ import com.xh.lesson.exception.code.ResponseCodeInterface;
 
 /**
  * @ClassName: BusinessException
- * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/4 16:30
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/4 16:30
+ * TODO:异常
+ * @Author: as
+ * @CreateDate: 2019/10/4 16:30
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/4 16:30
  * @Version: 0.0.1
  */
 public class BusinessException extends RuntimeException{

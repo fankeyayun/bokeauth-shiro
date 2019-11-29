@@ -8,10 +8,10 @@ import java.util.List;
 /**
  * @ClassName: LoginRespVO
  * TODO:类文件简单描述
- * @Author: 小霍
- * @CreateDate: 2019/9/7 23:05
- * @UpdateUser: 小霍
- * @UpdateDate: 2019/9/7 23:05
+ * @Author: as
+ * @CreateDate: 2019/10/7 23:05
+ * @UpdateUser: as
+ * @UpdateDate: 2019/10/7 23:05
  * @Version: 0.0.1
  */
 @Data

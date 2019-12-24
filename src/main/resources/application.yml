@@ -1,0 +1,55 @@
+server:
+  port: 8080 #端口
+spring: #配置数据源
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/boke_auth?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: root
+      initial-size: 5
+      max-active: 20
+      min-idle: 5
+      max-wait: 60000
+      max-pool-prepared-statement-per-connection-size: 20
+      pool-prepared-statements: true
+      validation-query: SELECT 1 FROM DUAL
+      validation-query-timeout: 30000
+      test-on-borrow: false
+      test-on-return: true
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      filter: stat,wall
+  application:
+    name: boke_auth
+    #配置redis
+  redis:
+    database: 0
+    host: local
+    port: 6379
+    jedis:
+      pool:
+        max-active: 1024
+        max-wait: PT10S
+        max-idle: 200
+        min-idle: 0
+    timeout: PT10S
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  #配置日志
+logging:
+  file: ${logging.path}/${spring.application.name}.log
+  path: logs
+  level:
+    root: info
+  #配置工具swagger2
+swagger2:
+  enable: true
+  #配置jwt
+jwt:
+  secretKey: 78944878877848fg)
+  accessTokenExpireTime: PT2H
+  refreshTokenExpireTime: P30D
+  #issuer: yingxue.com

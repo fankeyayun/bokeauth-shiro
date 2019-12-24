@@ -55,7 +55,7 @@ public class PermissionServiceImpl implements PermissionService {
      * @UpdateDate:  2019/10/20 11:42
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.entity.SysPermission>
+     * @return       java.util.List<com.boke.auth.entity.SysPermission>
      * @throws
      */
     @Override
@@ -79,7 +79,7 @@ public class PermissionServiceImpl implements PermissionService {
      * @UpdateDate:  2019/10/20 12:24
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.entity.SysPermission
+     * @return       com.boke.auth.entity.SysPermission
      * @throws
      */
     @Override
@@ -102,7 +102,7 @@ public class PermissionServiceImpl implements PermissionService {
      * @UpdateDate:  2019/10/20 14:05
      * @Version:     0.0.1
      * @param permissionId
-     * @return       com.xh.lesson.entity.SysPermission
+     * @return       com.boke.auth.entity.SysPermission
      * @throws
      */
     @Override
@@ -174,7 +174,7 @@ public class PermissionServiceImpl implements PermissionService {
      * @UpdateDate:  2019/10/20 14:03
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysPermission>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysPermission>
      * @throws
      */
     @Override
@@ -192,7 +192,7 @@ public class PermissionServiceImpl implements PermissionService {
      * @UpdateDate:  2019/10/20 14:03
      * @Version:     0.0.1
      * @param
-     * @return       java.util.List<com.xh.lesson.entity.SysPermission>
+     * @return       java.util.List<com.boke.auth.entity.SysPermission>
      * @throws
      */
     @Override
@@ -234,7 +234,7 @@ public class PermissionServiceImpl implements PermissionService {
      * @UpdateDate:  2019/10/23 10:53
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.vo.resp.PermissionRespNode>
+     * @return       java.util.List<com.boke.auth.vo.resp.PermissionRespNode>
      * @throws
      */
     @Override

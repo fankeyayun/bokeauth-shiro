@@ -33,7 +33,7 @@ public class LogServiceImpl implements LogService {
      * @UpdateDate:  2019/10/23 16:21
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysLog>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysLog>
      * @throws
      */
     @Override

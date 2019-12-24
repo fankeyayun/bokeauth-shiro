@@ -41,7 +41,7 @@ public class ShiroConfig {
      * @UpdateDate:  2019/9/19 10:46
      * @Version:     0.0.1
      * @param
-     * @return       com.xh.lesson.shiro.CustomHashedCredentialsMatcher
+     * @return       com.boke.auth.shiro.CustomHashedCredentialsMatcher
      * @throws
      */
     @Bean
@@ -56,7 +56,7 @@ public class ShiroConfig {
      * @UpdateDate:  2019/9/19 10:46
      * @Version:     0.0.1
      * @param
-     * @return       com.xh.lesson.shiro.CustomRealm
+     * @return       com.boke.auth.shiro.CustomRealm
      * @throws
      */
     @Bean
@@ -74,7 +74,7 @@ public class ShiroConfig {
      * @UpdateDate:  2019/9/19 10:40
      * @Version:     0.0.1
      * @param
-     * @return       com.xh.lesson.shiro.RedisCacheManager
+     * @return       com.boke.auth.shiro.RedisCacheManager
      * @throws
      */
     @Bean

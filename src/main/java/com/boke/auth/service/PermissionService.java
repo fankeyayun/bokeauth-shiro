@@ -29,7 +29,7 @@ public interface PermissionService {
      * @UpdateDate:  2019/10/20 11:42
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.entity.SysPermission>
+     * @return       java.util.List<com.boke.auth.entity.SysPermission>
      * @throws
      */
     List<SysPermission> getPermission(String userId);
@@ -41,7 +41,7 @@ public interface PermissionService {
      * @UpdateDate:  2019/10/20 12:24
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.entity.SysPermission
+     * @return       com.boke.auth.entity.SysPermission
      * @throws
      */
     SysPermission addPermission(PermissionAddReqVO vo);
@@ -53,7 +53,7 @@ public interface PermissionService {
      * @UpdateDate:  2019/10/20 14:05
      * @Version:     0.0.1
      * @param permissionId
-     * @return       com.xh.lesson.entity.SysPermission
+     * @return       com.boke.auth.entity.SysPermission
      * @throws
      */
     SysPermission detailInfo(String permissionId);
@@ -90,7 +90,7 @@ public interface PermissionService {
      * @UpdateDate:  2019/10/20 14:03
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysPermission>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysPermission>
      * @throws
      */
     PageVO<SysPermission> pageInfo(PermissionPageReqVO vo);
@@ -102,7 +102,7 @@ public interface PermissionService {
      * @UpdateDate:  2019/10/20 14:03
      * @Version:     0.0.1
      * @param
-     * @return       java.util.List<com.xh.lesson.entity.SysPermission>
+     * @return       java.util.List<com.boke.auth.entity.SysPermission>
      * @throws
      */
     List<SysPermission> selectAll();
@@ -126,7 +126,7 @@ public interface PermissionService {
      * @UpdateDate:  2019/10/23 10:53
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.vo.resp.PermissionRespNode>
+     * @return       java.util.List<com.boke.auth.vo.resp.PermissionRespNode>
      * @throws
      */
     List<PermissionRespNode> permissionTreeList(String userId);

@@ -85,7 +85,7 @@ public class DataResult <T>{
      * @UpdateDate:  2019/10/4 23:08
      * @Version:     0.0.1
      * @param
-     * @return       com.xh.lesson.utils.DataResult<T>
+     * @return       com.boke.auth.utils.DataResult<T>
      * @throws
      */
     public static <T>DataResult success(){
@@ -99,7 +99,7 @@ public class DataResult <T>{
      * @UpdateDate:  2019/10/4 23:09
      * @Version:     0.0.1
      * @param data
-     * @return       com.xh.lesson.utils.DataResult<T>
+     * @return       com.boke.auth.utils.DataResult<T>
      * @throws
      */
     public static <T>DataResult success(T data){
@@ -115,7 +115,7 @@ public class DataResult <T>{
      * @param code
      * @param msg
      * @param data
-     * @return       com.xh.lesson.utils.DataResult
+     * @return       com.boke.auth.utils.DataResult
      * @throws
      */
     public static <T>DataResult getResult(int code,String msg,T data){
@@ -130,7 +130,7 @@ public class DataResult <T>{
      * @Version:     0.0.1
      * @param code
      * @param msg
-     * @return       com.xh.lesson.utils.DataResult
+     * @return       com.boke.auth.utils.DataResult
      * @throws
      */
     public static <T>DataResult getResult(int code,String msg){
@@ -144,7 +144,7 @@ public class DataResult <T>{
      * @UpdateDate:  2019/10/4 23:16
      * @Version:     0.0.1
      * @param responseCode
-     * @return       com.xh.lesson.utils.DataResult
+     * @return       com.boke.auth.utils.DataResult
      * @throws
      */
     public static <T>DataResult getResult(BaseResponseCode responseCode){
@@ -159,7 +159,7 @@ public class DataResult <T>{
      * @Version:     0.0.1
      * @param responseCode
      * @param data
-     * @return       com.xh.lesson.utils.DataResult
+     * @return       com.boke.auth.utils.DataResult
      * @throws
      */
     public static <T>DataResult getResult(BaseResponseCode responseCode,T data){

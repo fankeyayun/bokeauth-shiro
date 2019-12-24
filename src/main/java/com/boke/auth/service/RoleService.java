@@ -26,7 +26,7 @@ public interface RoleService {
      * @UpdateDate:  2019/9/20 0:28
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.entity.SysRole
+     * @return       com.boke.auth.entity.SysRole
      * @throws
      */
     SysRole addRole(RoleAddReqVO vo);
@@ -50,7 +50,7 @@ public interface RoleService {
      * @UpdateDate:  2019/9/20 0:37
      * @Version:     0.0.1
      * @param id
-     * @return       com.xh.lesson.entity.SysRole
+     * @return       com.boke.auth.entity.SysRole
      * @throws
      */
     SysRole detailInfo(String id);
@@ -77,7 +77,7 @@ public interface RoleService {
      * @UpdateDate:  2019/9/20 0:40
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysRole>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysRole>
      * @throws
      */
     PageVO<SysRole> pageInfo(RolePageReqVO vo);
@@ -89,7 +89,7 @@ public interface RoleService {
      * @UpdateDate:  2019/9/20 16:38
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.entity.SysRole>
+     * @return       java.util.List<com.boke.auth.entity.SysRole>
      * @throws
      */
     List<SysRole> getRoleInfoByUserId(String userId);

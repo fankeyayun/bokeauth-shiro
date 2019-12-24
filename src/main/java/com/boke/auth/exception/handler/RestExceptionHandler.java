@@ -33,7 +33,7 @@ public class RestExceptionHandler {
      * @UpdateDate:  2019/10/4 23:25
      * @Version:     0.0.1
      * @param e
-     * @return       com.xh.lesson.utils.DataResult<T>
+     * @return       com.boke.auth.utils.DataResult<T>
      * @throws
      */
     @ExceptionHandler(Exception.class)
@@ -50,7 +50,7 @@ public class RestExceptionHandler {
      * @UpdateDate:  2019/10/4 16:39
      * @Version:     0.0.1
      * @param e
-     * @return       com.xh.lesson.utils.DataResult<T>
+     * @return       com.boke.auth.utils.DataResult<T>
      * @throws
      */
     @ExceptionHandler(value = BusinessException.class)
@@ -66,7 +66,7 @@ public class RestExceptionHandler {
      * @UpdateDate:  2019/10/23 15:19
      * @Version:     0.0.1
      * @param e
-     * @return       com.xh.lesson.utils.DataResult<T>
+     * @return       com.boke.auth.utils.DataResult<T>
      * @throws
      */
     @ExceptionHandler(value = UnauthorizedException.class)

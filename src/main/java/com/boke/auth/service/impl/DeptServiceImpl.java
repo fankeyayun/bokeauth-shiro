@@ -58,7 +58,7 @@ public class DeptServiceImpl implements DeptService {
      * @UpdateDate:  2019/10/19 14:01
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.entity.SysDept
+     * @return       com.boke.auth.entity.SysDept
      * @throws
      */
     @Override
@@ -156,7 +156,7 @@ public class DeptServiceImpl implements DeptService {
      * @UpdateDate:  2019/10/19 15:14
      * @Version:     0.0.1
      * @param id
-     * @return       com.xh.lesson.entity.SysDept
+     * @return       com.boke.auth.entity.SysDept
      * @throws
      */
     @Override
@@ -194,7 +194,7 @@ public class DeptServiceImpl implements DeptService {
      * @UpdateDate:  2019/10/19 16:10
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysDept>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysDept>
      * @throws
      */
     @Override
@@ -211,7 +211,7 @@ public class DeptServiceImpl implements DeptService {
      * @UpdateDate:  2019/10/19 22:17
      * @Version:     0.0.1
      * @param
-     * @return       java.util.List<com.xh.lesson.vo.resp.DeptRespNodeVO>
+     * @return       java.util.List<com.boke.auth.vo.resp.DeptRespNodeVO>
      * @throws
      */
     @Override
@@ -252,7 +252,7 @@ public class DeptServiceImpl implements DeptService {
      * @UpdateDate:  2019/10/20 17:21
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysUser>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysUser>
      * @throws
      */
     @Override

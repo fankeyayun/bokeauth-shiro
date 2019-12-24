@@ -102,7 +102,7 @@ public class UserServiceImpl implements UserService {
      * @UpdateDate:  2019/9/8 9:56
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.entity.SysRole>
+     * @return       java.util.List<com.boke.auth.entity.SysRole>
      * @throws
      */
     private List<String> getRolesByUserId(String userId){
@@ -118,7 +118,7 @@ public class UserServiceImpl implements UserService {
      * @UpdateDate:  2019/9/8 9:56
      * @Version:     0.0.1
      * @param userId
-     * @return       java.util.List<com.xh.lesson.entity.SysPermission>
+     * @return       java.util.List<com.boke.auth.entity.SysPermission>
      * @throws
      */
     private Set<String>getPermissionsByUserId(String userId){
@@ -241,7 +241,7 @@ public class UserServiceImpl implements UserService {
      * @UpdateDate:  2019/9/20 16:56
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysUser>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysUser>
      * @throws
      */
     @Override
@@ -259,7 +259,7 @@ public class UserServiceImpl implements UserService {
      * @UpdateDate:  2019/9/20 16:56
      * @Version:     0.0.1
      * @param userId
-     * @return       com.xh.lesson.entity.SysUser
+     * @return       com.boke.auth.entity.SysUser
      * @throws
      */
     @Override
@@ -277,7 +277,7 @@ public class UserServiceImpl implements UserService {
      * @param pageNum
      * @param pageSize
      * @param deptIds
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysUser>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysUser>
      * @throws
      */
     @Override

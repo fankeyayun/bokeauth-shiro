@@ -38,7 +38,7 @@ public interface UserService {
      * @UpdateDate:  2019/10/8 10:05
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.LoginRespVO
+     * @return       com.boke.auth.vo.resp.LoginRespVO
      * @throws
      */
     LoginRespVO login(LoginReqVO vo);
@@ -89,7 +89,7 @@ public interface UserService {
      * @UpdateDate:  2019/10/20 16:56
      * @Version:     0.0.1
      * @param vo
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysUser>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysUser>
      * @throws
      */
     PageVO<SysUser> pageInfo(UserPageReqVO vo);
@@ -101,7 +101,7 @@ public interface UserService {
      * @UpdateDate:  2019/10/20 16:56
      * @Version:     0.0.1
      * @param userId
-     * @return       com.xh.lesson.entity.SysUser
+     * @return       com.boke.auth.entity.SysUser
      * @throws
      */
     SysUser detailInfo(String userId);
@@ -115,7 +115,7 @@ public interface UserService {
      * @param pageNum
      * @param pageSize
      * @param deptIds
-     * @return       com.xh.lesson.vo.resp.PageVO<com.xh.lesson.entity.SysUser>
+     * @return       com.boke.auth.vo.resp.PageVO<com.boke.auth.entity.SysUser>
      * @throws
      */
     PageVO<SysUser> selectUserInfoByDeptIds(int pageNum, int pageSize,List<String> deptIds);

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xh.lesson.mapper.SysRoleMapper">
-  <resultMap id="BaseResultMap" type="com.xh.lesson.entity.SysRole">
+<mapper namespace="com.boke.auth.mapper.SysRoleMapper">
+  <resultMap id="BaseResultMap" type="com.boke.auth.entity.SysRole">
     <id column="id" jdbcType="VARCHAR" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="description" jdbcType="VARCHAR" property="description" />
@@ -23,7 +23,7 @@
     delete from sys_role
     where id = #{id,jdbcType=VARCHAR}
   </delete>
-  <insert id="insert" parameterType="com.xh.lesson.entity.SysRole">
+  <insert id="insert" parameterType="com.boke.auth.entity.SysRole">
     insert into sys_role (id, `name`, description, 
       `status`, create_time, update_time, 
       deleted)
@@ -31,7 +31,7 @@
       #{status,jdbcType=TINYINT}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, 
       #{deleted,jdbcType=TINYINT})
   </insert>
-  <insert id="insertSelective" parameterType="com.xh.lesson.entity.SysRole">
+  <insert id="insertSelective" parameterType="com.boke.auth.entity.SysRole">
     insert into sys_role
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -80,7 +80,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.xh.lesson.entity.SysRole">
+  <update id="updateByPrimaryKeySelective" parameterType="com.boke.auth.entity.SysRole">
     update sys_role
     <set>
       <if test="name != null">
@@ -104,7 +104,7 @@
     </set>
     where id = #{id,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.xh.lesson.entity.SysRole">
+  <update id="updateByPrimaryKey" parameterType="com.boke.auth.entity.SysRole">
     update sys_role
     set `name` = #{name,jdbcType=VARCHAR},
       description = #{description,jdbcType=VARCHAR},

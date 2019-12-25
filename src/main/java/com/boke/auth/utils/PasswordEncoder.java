@@ -10,7 +10,7 @@ import java.util.UUID;
 *                   密码加密
 * @Author:          as
 * @CreateDate:      2019/10/7 13:45
-* @UpdateUser:      小霍
+* @UpdateUser:      as
 * @UpdateDate:      2019/10/7 13:45
 * @Version:         0.0.1
 */

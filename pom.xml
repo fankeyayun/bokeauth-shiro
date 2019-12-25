@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.boke.auth</groupId>
-    <artifactId>company-frame</artifactId>
+    <artifactId>boke-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>company-frame</name>
     <description>Demo project for Spring Boot</description>

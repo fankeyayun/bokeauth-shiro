@@ -264,3 +264,105 @@ java.lang.NullPointerException: null
 2019-12-24 13:41:09.977  INFO 28351 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-12-24 13:41:09.978  INFO 28351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-12-24 13:41:10.003  INFO 28351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-12-24 13:44:35.821  INFO 28351 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 13:44:35.833  INFO 28351 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-24 13:44:43.900  INFO 28732 --- [main] com.boke.auth.CompanyFrameApplication    : Starting CompanyFrameApplication on AsideMacBook-Air.local with PID 28732 (/Users/chenasiyatu/demo/bokeauth-shiro/target/classes started by chenasiyatu in /Users/chenasiyatu/demo/bokeauth-shiro)
+2019-12-24 13:44:43.905  INFO 28732 --- [main] com.boke.auth.CompanyFrameApplication    : No active profile set, falling back to default profiles: default
+2019-12-24 13:44:45.904  INFO 28732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-24 13:44:45.907  INFO 28732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 13:44:45.971  INFO 28732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-12-24 13:44:46.390  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.boke.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$a853a3ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:46.697  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.boke.auth.config.RedisConfig$$EnhancerBySpringCGLIB$$f3222af8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:46.732  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:46.738  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$3455e6a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:46.889  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.001  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.020  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.022  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.boke.auth.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.022  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.boke.auth.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.025  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisCacheManager' of type [com.boke.auth.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.069  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.boke.auth.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.073  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.135  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.334  INFO 28732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f3c2856] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 13:44:47.927  INFO 28732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-24 13:44:47.958  INFO 28732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-24 13:44:47.958  INFO 28732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-24 13:44:48.092  INFO 28732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-24 13:44:48.093  INFO 28732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4048 ms
+2019-12-24 13:44:48.342  INFO 28732 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-24 13:44:48.949  INFO 28732 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-24 13:44:50.722  INFO 28732 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-24 13:44:51.177  INFO 28732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 13:44:51.983  INFO 28732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-24 13:44:52.007  INFO 28732 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-24 13:44:52.070  INFO 28732 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-24 13:44:52.349  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deletedUsingDELETE_1
+2019-12-24 13:44:52.352  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailInfoUsingGET_1
+2019-12-24 13:44:52.363  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2019-12-24 13:44:52.381  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deletedUsingDELETE_2
+2019-12-24 13:44:52.384  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailInfoUsingGET_2
+2019-12-24 13:44:52.394  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2019-12-24 13:44:52.399  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2019-12-24 13:44:52.417  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2019-12-24 13:44:52.441  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailInfoUsingGET_3
+2019-12-24 13:44:52.460  INFO 28732 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2019-12-24 13:44:52.562  INFO 28732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-24 13:44:52.569  INFO 28732 --- [main] com.boke.auth.CompanyFrameApplication    : Started CompanyFrameApplication in 9.446 seconds (JVM running for 10.949)
+2019-12-24 13:45:12.848  INFO 28732 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1546852735,1547084488,1547544211] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-12-24 13:45:12.860  INFO 28732 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 13:45:12.860  INFO 28732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-24 13:45:12.879  INFO 28732 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-12-24 14:38:22.809  INFO 28732 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 14:38:22.857  INFO 28732 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-24 14:53:26.493  INFO 30832 --- [main] com.boke.auth.CompanyFrameApplication    : Starting CompanyFrameApplication on AsideMacBook-Air.local with PID 30832 (/Users/chenasiyatu/demo/bokeauth-shiro/target/classes started by chenasiyatu in /Users/chenasiyatu/demo/bokeauth-shiro)
+2019-12-24 14:53:26.499  INFO 30832 --- [main] com.boke.auth.CompanyFrameApplication    : No active profile set, falling back to default profiles: default
+2019-12-24 14:53:29.365  INFO 30832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-24 14:53:29.376  INFO 30832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-24 14:53:29.489  INFO 30832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019-12-24 14:53:29.958  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.boke.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$d09c2fa9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.311  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.boke.auth.config.RedisConfig$$EnhancerBySpringCGLIB$$1b6ab6f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.348  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.354  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$5c9e729b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.620  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.823  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.860  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.862  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisService' of type [com.boke.auth.service.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.863  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customHashedCredentialsMatcher' of type [com.boke.auth.shiro.CustomHashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.866  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisCacheManager' of type [com.boke.auth.shiro.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.926  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.boke.auth.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:30.931  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:31.014  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:31.125  INFO 30832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4784b451] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-24 14:53:32.131  INFO 30832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-24 14:53:32.164  INFO 30832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-24 14:53:32.165  INFO 30832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-12-24 14:53:32.295  INFO 30832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-24 14:53:32.296  INFO 30832 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5669 ms
+2019-12-24 14:53:32.620  INFO 30832 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-12-24 14:53:33.375  INFO 30832 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-24 14:53:36.053  INFO 30832 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-24 14:53:36.492  INFO 30832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-24 14:53:37.476  INFO 30832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-24 14:53:37.534  INFO 30832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-24 14:53:37.626  INFO 30832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-24 14:53:37.983  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deletedUsingDELETE_1
+2019-12-24 14:53:37.988  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailInfoUsingGET_1
+2019-12-24 14:53:38.007  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_1
+2019-12-24 14:53:38.033  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deletedUsingDELETE_2
+2019-12-24 14:53:38.037  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailInfoUsingGET_2
+2019-12-24 14:53:38.051  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_2
+2019-12-24 14:53:38.057  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateDeptUsingPUT_1
+2019-12-24 14:53:38.080  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_3
+2019-12-24 14:53:38.108  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailInfoUsingGET_3
+2019-12-24 14:53:38.130  INFO 30832 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pageInfoUsingPOST_4
+2019-12-24 14:53:38.261  INFO 30832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-24 14:53:38.274  INFO 30832 --- [main] com.boke.auth.CompanyFrameApplication    : Started CompanyFrameApplication in 12.712 seconds (JVM running for 14.27)
+2019-12-24 14:53:51.654  INFO 30832 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1546852735,1547084488,1547544211] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-12-24 14:53:51.667  INFO 30832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-24 14:53:51.667  INFO 30832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-24 14:53:51.694  INFO 30832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2019-12-24 15:24:34.771  INFO 30832 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-24 15:24:34.802  INFO 30832 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

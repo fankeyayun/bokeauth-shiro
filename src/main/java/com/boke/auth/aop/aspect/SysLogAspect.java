@@ -66,7 +66,7 @@ public class SysLogAspect {
     }
     /**
      * 把日志保存
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/10/7 14:32
      * @UpdateUser:
      * @UpdateDate:  2019/10/7 14:32

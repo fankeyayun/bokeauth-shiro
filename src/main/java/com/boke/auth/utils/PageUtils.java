@@ -10,7 +10,7 @@ import java.util.List;
 *                   分页工具类
 * @Author:          as
 * @CreateDate:      2019/10/19 13:26
-* @UpdateUser:      小霍
+* @UpdateUser:      as
 * @UpdateDate:      2019/10/19 13:26
 * @Version:         0.0.1
 */

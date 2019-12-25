@@ -11,16 +11,16 @@ import java.util.List;
 /**
  * @ClassName: RoleService
  * TODO:类文件简单描述
- * @Author: 小霍
+ * @Author: as
  * @CreateDate: 2019/9/19 11:38
- * @UpdateUser: 小霍
+ * @UpdateUser: as
  * @UpdateDate: 2019/9/19 11:38
  * @Version: 0.0.1
  */
 public interface RoleService {
     /**
      * 新增角色
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 0:28
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 0:28
@@ -32,7 +32,7 @@ public interface RoleService {
     SysRole addRole(RoleAddReqVO vo);
     /**
      * 更新角色信息
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 0:37
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 0:37
@@ -44,7 +44,7 @@ public interface RoleService {
     void updateRole(RoleUpdateReqVO vo,String accessToken);
     /**
      * 获取角色详情
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 0:37
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 0:37
@@ -59,7 +59,7 @@ public interface RoleService {
      * 主要逻辑：
      * 删除 用户和角色关联数据
      * 删除 角色和权限关联数据
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 10:34
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 10:34
@@ -71,7 +71,7 @@ public interface RoleService {
     void deletedRole(String id);
     /**
      * 分页获取角色信息列表
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 0:40
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 0:40
@@ -83,7 +83,7 @@ public interface RoleService {
     PageVO<SysRole> pageInfo(RolePageReqVO vo);
     /**
      * 获取用户的所有角色
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 16:38
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 16:38
@@ -95,7 +95,7 @@ public interface RoleService {
     List<SysRole> getRoleInfoByUserId(String userId);
     /**
      * 获取所有角色名称
-     * @Author:      小霍
+     * @Author:      as
      * @CreateDate:  2019/9/20 23:13
      * @UpdateUser:
      * @UpdateDate:  2019/9/20 23:13

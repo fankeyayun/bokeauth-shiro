@@ -115,7 +115,7 @@
     where id = #{id,jdbcType=VARCHAR}
   </update>
   <!-- @Description:     获取所有的角色-->
-  <!-- @Author:          小霍-->
+  <!-- @Author:          as-->
   <!-- @CreateDate:      2019/as/20 16:32 -->
   <select id="selectAll" resultMap="BaseResultMap">
     select <include refid="Base_Column_List"></include>
